@@ -12,6 +12,8 @@ python3 -m http.server 8877 --bind 127.0.0.1
 
 Visit http://localhost:8877. Stop the server with Ctrl+C.
 
+[To run locally, index.html in your browser]
+
 ## What works
 
 - Generates positioning, a dated launch schedule, sales brief, three-message email sequence, 15-minute demo script, and measurement plan.
