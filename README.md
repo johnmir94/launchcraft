@@ -2,17 +2,24 @@
 
 A personal product marketing project prepared for John Miranda, inspired by his experience in enterprise AI governance and go-to-market planning. The sample brief describes a fictional governance platform. Choose a buyer, industry, objective, capabilities, date, launch window, and resource level; build six editable deliverables, review claim patterns, and export your work.
 
-## Run locally
+## Run locally without a server
 
-Open index.html directly, or run:
+1. On GitHub, choose **Code → Download ZIP**, then extract the ZIP. If you’ve already cloned the repository, use that folder.
+2. In the project folder, double-click `index.html` to open it in your browser. Keep `app.js` and `styles.css` beside it.
+
+The address starts with `file:///`. Launchcraft runs directly in the browser and needs no Python, installation, or access to `localhost:8877`.
+
+### Optional HTTP preview
+
+If you want to preview the app over HTTP, run this from the project folder:
 
 ```sh
 python3 -m http.server 8877 --bind 127.0.0.1
 ```
 
-Visit http://localhost:8877. Stop the server with Ctrl+C.
+Then open [http://localhost:8877](http://localhost:8877) on the same computer. This address works only while that server is running. Press Ctrl+C in the terminal to stop it.
 
-[To run locally, index.html in your browser]
+A workspace saved in the HTTP preview won’t appear in the file-based copy. To move a workspace between them, export it as JSON, then use **Open project** in the other copy. Browser storage availability for local files varies by browser.
 
 ## What works
 
